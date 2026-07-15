@@ -45,7 +45,7 @@ def main():
     output_path = os.path.join(KAGGLE_DIR, OUTPUT_FILE)
     if os.path.exists(input_path):
         logger.info("Dataset downloaded successfully.")
-        os.rename(input_path, output_path)
+        os.replace(input_path, output_path)
         logger.info("Renamed %s → %s", INPUT_FILE, OUTPUT_FILE)
     else:
         logger.warning("Expected file not found: %s", INPUT_FILE)
