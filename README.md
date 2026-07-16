@@ -115,3 +115,13 @@ pip --version # you should see pip 25.3.x
 
 Please report bugs to the [GitHub Issues Page](https://github.com/netflix-writers/netflix/issues)
 for this project.
+
+## final capstone
+file name: netflix_hit_score_final
+
+## group member
+UJ
+Shannon
+Zion
+Nathan
+Emily
